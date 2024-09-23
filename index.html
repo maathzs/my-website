@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de HTML, CSS e JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="editor-container">
+        <h1>Editor HTML, CSS e JavaScript</h1>
+        
+        <div class="editor">
+            <h2>HTML</h2>
+            <textarea id="html-editor"></textarea>
+        </div>
+
+        <div class="editor">
+            <h2>CSS</h2>
+            <textarea id="css-editor"></textarea>
+        </div>
+
+        <div class="editor">
+            <h2>JavaScript</h2>
+            <textarea id="js-editor"></textarea>
+        </div>
+
+        <button id="run">Executar</button>
+    </div>
+
+    <iframe id="output" sandbox="allow-scripts"></iframe>
+
+    <script src="script.js"></script>
+</body>
+</html>
